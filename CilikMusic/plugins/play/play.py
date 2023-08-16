@@ -46,6 +46,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
     & ~filters.edited
     & ~BANNED_USERS
 )
+@subcribe
 @PlayWrapper
 async def play_commnd(
     client,
