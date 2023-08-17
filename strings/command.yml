@@ -11,13 +11,13 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["mping"]
+PING_COMMAND : ["ping"]
 START_COMMAND : ["start"]
-HELP_COMMAND : ["mhelp"]
-SETTINGS_COMMAND : ["msettings", "msetting"]
+HELP_COMMAND : ["help"]
+SETTINGS_COMMAND : ["settings", "msetting"]
 RELOAD_COMMAND : ["admincache", "mreload"]
-GSTATS_COMMAND : ["mgstats"]
-STATS_COMMAND : ["mstats"]
+GSTATS_COMMAND : ["gstats"]
+STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -87,7 +87,7 @@ VARS_COMMAND : ["vars", "config"]
 
 #Basic Bot Commands
 UPDATE_COMMAND : ["update"]
-REBOOT_COMMAND : ["mreboot"]
+REBOOT_COMMAND : ["reboot"]
 AUTOEND_COMMAND : ["autoend"]
 
 #Private Bot Mode
