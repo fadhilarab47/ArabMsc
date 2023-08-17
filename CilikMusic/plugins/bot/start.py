@@ -35,7 +35,12 @@ from CilikMusic.utils.inline import (help_pannel, private_panel,
 loop = asyncio.get_running_loop()
 
 
-@app.on_message(filters.command("start") & filters.private)
+@app.on_message(
+    filters.command(get_command("START_COMMAND"))
+    & filters.private
+    & ~filters.edited
+    & ~BANNED_USERS
+)
 @LanguageStart
 async def start_comm(client, message: Message, _):
     await add_served_user(message.from_user.id)
@@ -143,13 +148,16 @@ async def start_comm(client, message: Message, _):
                 published = result["publishedTime"]
             searched_text = f"""
 🔍__**Video Track Information**__
+
 ❇️**Title:** {title}
+
 ⏳**Duration:** {duration} Mins
 👀**Views:** `{views}`
 ⏰**Published Time:** {published}
 🎥**Channel Name:** {channel}
 📎**Channel Link:** [Visit From Here]({channellink})
 🔗**Video Link:** [Link]({link})
+
 ⚡️ __Searched Powered By {config.MUSIC_BOT_NAME}__"""
             key = InlineKeyboardMarkup(
                 [
@@ -184,7 +192,26 @@ async def start_comm(client, message: Message, _):
             OWNER = OWNER_ID[0]
         except:
             OWNER = None
-
+        out = private_panel(_, app.username, OWNER)
+        if config.START_IMG_URL:
+            try:
+                await message.reply_photo(
+                    photo=config.START_IMG_URL,
+                    caption=_["start_2"].format(
+                        config.MUSIC_BOT_NAME
+                    ),
+                    reply_markup=InlineKeyboardMarkup(out),
+                )
+            except:
+                await message.reply_text(
+                    _["start_2"].format(config.MUSIC_BOT_NAME),
+                    reply_markup=InlineKeyboardMarkup(out),
+                )
+        else:
+            await message.reply_text(
+                _["start_2"].format(config.MUSIC_BOT_NAME),
+                reply_markup=InlineKeyboardMarkup(out),
+            )
         if await is_on_off(config.LOG):
             sender_id = message.from_user.id
             sender_name = message.from_user.first_name
@@ -194,12 +221,12 @@ async def start_comm(client, message: Message, _):
             )
 
 
-#@app.on_message(
-#    filters.command(get_command("START_COMMAND"))
-#    & filters.group
-#    & ~filters.edited
-#    & ~BANNED_USERS
-#)
+@app.on_message(
+    filters.command(get_command("START_COMMAND"))
+    & filters.group
+    & ~filters.edited
+    & ~BANNED_USERS
+)
 @LanguageStart
 async def testbot(client, message: Message, _):
     out = start_pannel(_)
