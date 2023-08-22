@@ -87,9 +87,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("nearpediastore")
-                await self.one.join_chat("maestrocreation")
-                await self.one.join_chat("nandapedia")
+                await self.one.join_chat("allfucek")
+                await self.one.join_chat("youramitty")
+                await self.one.join_chat("justmewryme")
             except:
                 pass
             assistants.append(1)
@@ -118,9 +118,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("CilikProject")
-                await self.two.join_chat("botlogsid")
-                await self.two.join_chat("CilikSupport")
+                await self.two.join_chat("allfucek")
+                await self.two.join_chat("youramitty")
+                await self.two.join_chat("justmewryme")
             except:
                 pass
             assistants.append(2)
@@ -149,9 +149,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("CilikProject")
-                await self.three.join_chat("botlogsid")
-                await self.three.join_chat("CilikSupport")
+                await self.three.join_chat("allfucek")
+                await self.three.join_chat("youramitty")
+                await self.three.join_chat("justmewryme")
             except:
                 pass
             assistants.append(3)
@@ -180,9 +180,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("CilikProject")
-                await self.four.join_chat("botlogsid")
-                await self.four.join_chat("CilikSupport")
+                await self.four.join_chat("allfucek")
+                await self.four.join_chat("youramitty")
+                await self.four.join_chat("justmewryme")
             except:
                 pass
             assistants.append(4)
@@ -211,9 +211,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("CilikProject")
-                await self.five.join_chat("botlogsid")
-                await self.five.join_chat("CilikSupport")
+                await self.five.join_chat("allfucek")
+                await self.five.join_chat("youramitty")
+                await self.five.join_chat("justmewryme")
             except:
                 pass
             assistants.append(5)
@@ -242,9 +242,9 @@ class Userbot(Client):
         if config.STRING6:
             await self.six.start()
             try:
-                await self.six.join_chat("CilikProject")
-                await self.six.join_chat("botlogsid")
-                await self.six.join_chat("CilikSupport")
+                await self.six.join_chat("allfucek")
+                await self.six.join_chat("youramitty")
+                await self.six.join_chat("justmewryme")
             except:
                 pass
             assistants.append(6)
@@ -273,9 +273,9 @@ class Userbot(Client):
         if config.STRING7:
             await self.seven.start()
             try:
-                await self.seven.join_chat("CilikProject")
-                await self.seven.join_chat("botlogsid")
-                await self.seven.join_chat("CilikSupport")
+                await self.seven.join_chat("allfucek")
+                await self.seven.join_chat("youramitty")
+                await self.seven.join_chat("justmewryme")
             except:
                 pass
             assistants.append(7)
@@ -304,9 +304,9 @@ class Userbot(Client):
         if config.STRING8:
             await self.eight.start()
             try:
-                await self.eight.join_chat("CilikProject")
-                await self.eight.join_chat("botlogsid")
-                await self.eight.join_chat("CilikSupport")
+                await self.eight.join_chat("allfucek")
+                await self.eight.join_chat("youramitty")
+                await self.eight.join_chat("justmewryme")
             except:
                 pass
             assistants.append(8)
@@ -335,9 +335,9 @@ class Userbot(Client):
         if config.STRING9:
             await self.nine.start()
             try:
-                await self.nine.join_chat("CilikProject")
-                await self.nine.join_chat("botlogsid")
-                await self.nine.join_chat("CilikSupport")
+                await self.nine.join_chat("allfucek")
+                await self.nine.join_chat("youramitty")
+                await self.nine.join_chat("justmewryme")
             except:
                 pass
             assistants.append(9)
@@ -366,9 +366,9 @@ class Userbot(Client):
         if config.STRING10:
             await self.ten.start()
             try:
-                await self.ten.join_chat("CilikProject")
-                await self.ten.join_chat("botlogsid")
-                await self.ten.join_chat("CilikSupport")
+                await self.ten.join_chat("allfucek")
+                await self.ten.join_chat("youramitty")
+                await self.ten.join_chat("justmewryme")
             except:
                 pass
             assistants.append(10)
