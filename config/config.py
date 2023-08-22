@@ -35,7 +35,7 @@ DURATION_LIMIT_MIN = int(
 # MUST JOIN
 MUST_JOIN = getenv("MUST_JOIN", None)
 if MUST_JOIN.startswith("@"):
-    MUST_JOIN = MUST_JOIN.replace("@", "")
+    MUST_JOIN = MUST_JOIN.replace("@", "justmewryme")
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
@@ -71,14 +71,14 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/nandapediastore"
+    "SUPPORT_CHANNEL", "https://t.me/justmewryme"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", " True")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -91,7 +91,7 @@ AUTO_SUGGESTION_TIME = int(
 )  # Remember to give value in Seconds
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", " True")
 
 # Set it True if you want to bot to suggest about bot commands to random chats of your bots.
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
@@ -178,12 +178,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL", 
-    "assets/IMG_20230817_201913_504.jpg",
+    "assets/IMG_20230822_175407_772.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/IMG_20230817_201913_504.jpg",
+    "assets/IMG_20230822_175407_772.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -193,12 +193,12 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/IMG_20230817_201913_504.jpg",
+    "assets/IMG_20230822_175407_772.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/IMG_20230817_201913_504.jpg",
+    "assets/IMG_20230822_175407_772.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -285,7 +285,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "assets/IMG_20230817_201913_504.jpg":
+    if PING_IMG_URL != "assets/IMG_20230822_175407_772.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -301,7 +301,7 @@ if PLAYLIST_IMG_URL:
             sys.exit()
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "assets/IMG_20230817_201913_504.jpg":
+    if GLOBAL_IMG_URL != "assets/IMG_20230822_175407_772.jpg":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -310,7 +310,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "assets/IMG_20230817_201913_504.jpg":
+    if STATS_IMG_URL != "assets/IMG_20230822_175407_772.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
