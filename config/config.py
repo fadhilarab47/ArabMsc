@@ -35,7 +35,7 @@ DURATION_LIMIT_MIN = int(
 # MUST JOIN
 MUST_JOIN = getenv("MUST_JOIN", None)
 if MUST_JOIN.startswith("@"):
-    MUST_JOIN = MUST_JOIN.replace("@", "justmewryme")
+    MUST_JOIN = MUST_JOIN.replace("@", "youramitty")
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
@@ -178,12 +178,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL", 
-    "assets/IMG_20230822_175407_772.jpg",
+    "assets/IMG_20230806_192655_779.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/IMG_20230822_175407_772.jpg",
+    "assets/IMG_20230806_192655_779.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -193,12 +193,12 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/IMG_20230822_175407_772.jpg",
+    "assets/IMG_20230806_192655_779.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/IMG_20230822_175407_772.jpg",
+    "assets/IMG_20230806_192655_779.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -285,7 +285,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "assets/IMG_20230822_175407_772.jpg":
+    if PING_IMG_URL != "assets/IMG_20230806_192655_779.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -301,7 +301,7 @@ if PLAYLIST_IMG_URL:
             sys.exit()
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "assets/IMG_20230822_175407_772.jpg":
+    if GLOBAL_IMG_URL != "assets/IMG_20230806_192655_779.jpg":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -310,7 +310,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "assets/IMG_20230822_175407_772.jpg":
+    if STATS_IMG_URL != "assets/IMG_20230806_192655_779.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
