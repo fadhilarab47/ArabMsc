@@ -36,7 +36,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="Channel",
-                url=f"https://t.me/justmewryme",
+                url=f"https://t.me/youramitty",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
@@ -75,7 +75,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text="Channel",
-                url=f"https://t.me/justmewryme",
+                url=f"https://t.me/youramitty",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
