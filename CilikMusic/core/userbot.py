@@ -89,7 +89,7 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("allfucek")
                 await self.one.join_chat("youramitty")
-                await self.one.join_chat("justmewryme")
+                await self.one.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(1)
@@ -120,7 +120,7 @@ class Userbot(Client):
             try:
                 await self.two.join_chat("allfucek")
                 await self.two.join_chat("youramitty")
-                await self.two.join_chat("justmewryme")
+                await self.two.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(2)
@@ -151,7 +151,7 @@ class Userbot(Client):
             try:
                 await self.three.join_chat("allfucek")
                 await self.three.join_chat("youramitty")
-                await self.three.join_chat("justmewryme")
+                await self.three.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(3)
@@ -182,7 +182,7 @@ class Userbot(Client):
             try:
                 await self.four.join_chat("allfucek")
                 await self.four.join_chat("youramitty")
-                await self.four.join_chat("justmewryme")
+                await self.four.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(4)
@@ -213,7 +213,7 @@ class Userbot(Client):
             try:
                 await self.five.join_chat("allfucek")
                 await self.five.join_chat("youramitty")
-                await self.five.join_chat("justmewryme")
+                await self.five.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(5)
@@ -244,7 +244,7 @@ class Userbot(Client):
             try:
                 await self.six.join_chat("allfucek")
                 await self.six.join_chat("youramitty")
-                await self.six.join_chat("justmewryme")
+                await self.six.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(6)
@@ -275,7 +275,7 @@ class Userbot(Client):
             try:
                 await self.seven.join_chat("allfucek")
                 await self.seven.join_chat("youramitty")
-                await self.seven.join_chat("justmewryme")
+                await self.seven.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(7)
@@ -306,7 +306,7 @@ class Userbot(Client):
             try:
                 await self.eight.join_chat("allfucek")
                 await self.eight.join_chat("youramitty")
-                await self.eight.join_chat("justmewryme")
+                await self.eight.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(8)
@@ -337,7 +337,7 @@ class Userbot(Client):
             try:
                 await self.nine.join_chat("allfucek")
                 await self.nine.join_chat("youramitty")
-                await self.nine.join_chat("justmewryme")
+                await self.nine.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(9)
@@ -368,7 +368,7 @@ class Userbot(Client):
             try:
                 await self.ten.join_chat("allfucek")
                 await self.ten.join_chat("youramitty")
-                await self.ten.join_chat("justmewryme")
+                await self.ten.join_chat("ybgskr17")
             except:
                 pass
             assistants.append(10)
